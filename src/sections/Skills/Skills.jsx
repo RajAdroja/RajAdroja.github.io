@@ -28,10 +28,14 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill="HTML"/>
             <SkillList src={checkMarkIcon} skill="CSS"/>
             <SkillList src={checkMarkIcon} skill="Javascript"/>
+            <SkillList src={checkMarkIcon} skill="MongoDB"/>
+            
 
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList src={checkMarkIcon} skill="Spring Boot"/>
+
             <SkillList src={checkMarkIcon} skill="HANA"/>
             <SkillList src={checkMarkIcon} skill="JIRA"/>
             <SkillList src={checkMarkIcon} skill="Snowflake"/>

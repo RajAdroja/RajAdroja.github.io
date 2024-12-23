@@ -42,7 +42,7 @@ function Hero() {
                 <br />
                 Adroja
             </h1>
-            <h2>Frontent Developer</h2>
+            <h2>Software Engineer</h2>
             <span>
                 <a href="https://www.instagram.com/raj_adroja6501/" target='_blank'>
                 <img src={instagramIcon} alt="Twitter icon" />
@@ -61,7 +61,12 @@ function Hero() {
 
             </span>
             <p className={styles.description}>
-            Exploring Artificial Intelligence and network engineering
+            Artificial Intelligence
+             <br />
+            Machine Learning
+            <br />
+            Network Engineering
+            <br />
             </p>
             <a href={CV} download>
                 <button className="hover">
