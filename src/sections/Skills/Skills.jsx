@@ -19,9 +19,9 @@ function Skills() {
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList src={checkMarkIcon} skill="Python"/>
             <SkillList src={checkMarkIcon} skill="Java"/>
             <SkillList src={checkMarkIcon} skill="SQL"/>
-            <SkillList src={checkMarkIcon} skill="Python"/>
             <SkillList src={checkMarkIcon} skill="Bash"/>
             <SkillList src={checkMarkIcon} skill="React"/>
             <SkillList src={checkMarkIcon} skill="Node.Js"/>
@@ -29,13 +29,15 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill="CSS"/>
             <SkillList src={checkMarkIcon} skill="Javascript"/>
             <SkillList src={checkMarkIcon} skill="MongoDB"/>
-            
-
+            <SkillList src={checkMarkIcon} skill="Spark"/>
+            <SkillList src={checkMarkIcon} skill="C++"/>
+            <SkillList src={checkMarkIcon} skill="C"/>
+            <SkillList src={checkMarkIcon} skill="Golang"/>
         </div>
         <hr />
         <div className={styles.skillList}>
             <SkillList src={checkMarkIcon} skill="Spring Boot"/>
-
+            
             <SkillList src={checkMarkIcon} skill="HANA"/>
             <SkillList src={checkMarkIcon} skill="JIRA"/>
             <SkillList src={checkMarkIcon} skill="Snowflake"/>
@@ -43,9 +45,15 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill="Kubernetes"/>
             <SkillList src={checkMarkIcon} skill="Github"/>
             <SkillList src={checkMarkIcon} skill="Cisco Packet Tracer"/>
+            <SkillList src={checkMarkIcon} skill="Postman"/>
+            <SkillList src={checkMarkIcon} skill="Wireshark"/>
+            <SkillList src={checkMarkIcon} skill="Hadoop"/>
+            <SkillList src={checkMarkIcon} skill="Kafka"/>
+            <SkillList src={checkMarkIcon} skill="HDFS"/>
+            <SkillList src={checkMarkIcon} skill="MATLAB"/>
+            <SkillList src={checkMarkIcon} skill="Hive"/>
         </div>
     </section>
   );
 }
-
 export default Skills;

@@ -16,7 +16,7 @@ import customerchurnpredictionlogo from '../../assets/customerchurnpredictionlog
 
 function Projects() {
   return (
-    <seciton id="projects" className={styles.container}>
+    <section id="projects" className={styles.container}>
         <h1 className="sectionTitle">Academic Projects</h1>
         <div className={styles.projectContainer}>
           <ProjectCard src={viberr} link={"https://github.com/RajAdroja/Automatic-colorization-using-auto-encoder"} h3={"DL Project"} p={"Automatic Colorization"}/>
@@ -42,7 +42,7 @@ function Projects() {
         <ProjectCard src={dockerlogo} link={"https://github.com/RajAdroja/CMPE272-Assignment-1-Hello-Service"} h3={"Hello World "} p={"Docker Kubernetes practice"}/>
         <ProjectCard src={crudlogo} link={"https://github.com/RajAdroja/CMPE272-Assignment-2-Building-serverless-application"} h3={"Serverless App"} p={"Simple CRUD"}/>
         </div>
-    </seciton>
+    </section>
     
   )
 }

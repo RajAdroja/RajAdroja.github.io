@@ -13,7 +13,5 @@ function App() {
   <Contact/>
   <Footer/>
   </>;
-  
 }
-
 export default App;
