@@ -20,7 +20,7 @@ const exp = [
   },
   {
     title: "Software Engineering Intern",
-    cardImage: "assets/images/experience-page/Accenturelogo.png",
+    cardImage: "assets/images/experience-page/viviana-logo.png",
     place: "Viviana, India",
     time: "(Apr, 2021 - May, 2022)",
     desp: "<li>Designed and embedded secure composable identity service module with Multi-Factor Authentication (MFA), Single Sign-On (SSO) enhancing user access security by 40% across multiple client applications.</li><li>Consolidated SSO using Django REST API and Express with JWT tokens improving user access efficiently by 30% across systems.</li><li>Refined application monitoring suite with features to start, restart and stop services, strengthening system reliability by 60%.</li>",

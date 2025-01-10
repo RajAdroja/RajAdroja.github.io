@@ -135,6 +135,32 @@ a.socialicon {
   text-decoration: none;
   transition: var(--trans-props);
 }
+.cv-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px; /* Size similar to other icons */
+  height: 64px;
+  background-color: #ffffff; /* White background */
+  border-radius: 50%; /* Circular shape */
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  text-decoration: none;
+  color: #0e76a8; /* Custom color for CV icon */
+  font-size: 24px; /* Icon size */
+  transition: transform 0.2s, box-shadow 0.2s; /* Hover effect */
+}
+
+.cv-icon i {
+  margin: auto; /* Center the icon */
+}
+
+.cv-icon:hover {
+  transform: translateY(-4px); /* Lift effect on hover */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16); /* Stronger shadow on hover */
+  background-color: #0e76a8; /* Change background color on hover */
+  color: #ffffff; /* Change icon color to white on hover */
+}
+
 .socialicon i {
   margin: auto;
   font-size: 24px;
