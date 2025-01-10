@@ -14,7 +14,7 @@ const projects = [
     Githublink: "https://github.com/RajAdroja/Customer-Churn-Prediction",
   },
   {
-    title: "Automatic colorization",
+    title: "Colorify",
     cardImage: "assets/images/project-page/automatic-color.webp",
     description: "Color grayscale images using auto encoder.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
@@ -46,7 +46,7 @@ const projects = [
     Githublink: "https://github.com/RajAdroja/Messenger-Clone",
   },
   {
-    title: "Recipe Recommender",
+    title: "FlavorFinder",
     cardImage: "assets/images/project-page/recipe-recommender.webp",
     description:
       "Personalized Recipe Recommender using machine learning.",
